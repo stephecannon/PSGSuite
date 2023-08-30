@@ -70,9 +70,9 @@
         [String]
         $Projection = "FULL",
         [parameter(Mandatory = $false)]
-        [ValidateRange(1,100)]
+        [ValidateRange(1,400)]
         [Int]
-        $PageSize = 100,
+        $PageSize = 400,
         [parameter(Mandatory = $false)]
         [Alias('First')]
         [Int]
